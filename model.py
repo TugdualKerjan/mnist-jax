@@ -14,6 +14,25 @@ class MLP(eqx.Module):
 #       "timestamp": "2025-01-17T23:35:44.774088",
 #       "content": "Regarding:\n> hidden=(784, 512, 256, 64, 16, 10)\n\nIs there any particular reason for these layers being chosen ?",
 #       "paper_ref": null
+#     },
+#     {
+#       "author": "anonymous",
+#       "timestamp": "2025-01-17T23:37:49.364130",
+#       "content": "It's thanks to this : ",
+#       "paper_ref": {
+#         "arxiv_id": "2205.15439",
+#         "section": "2"
+#       }
+#     }
+#   ]
+# }
+# @discussion{
+#   "comments": [
+#     {
+#       "author": "anonymous",
+#       "timestamp": "2025-01-17T23:35:44.774088",
+#       "content": "Regarding:\n> hidden=(784, 512, 256, 64, 16, 10)\n\nIs there any particular reason for these layers being chosen ?",
+#       "paper_ref": null
 #     }
 #   ]
 # }
