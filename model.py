@@ -12,6 +12,16 @@ class MLP(eqx.Module):
 #     {
 #       "author": "anonymous",
 #       "timestamp": "2025-01-17T23:35:44.774088",
+# @discussion{
+#   "comments": [
+#     {
+#       "author": "anonymous",
+#       "timestamp": "2025-01-17T23:53:24.809747",
+#       "content": "Regarding:\n> hidden=(784, 512, 256, 64, 16, 10)\\n\n\n??",
+#       "paper_ref": null
+#     }
+#   ]
+# }
 #       "content": "Regarding:\n> hidden=(784, 512, 256, 64, 16, 10)\n\nIs there any particular reason for these layers being chosen ?",
 #       "paper_ref": null
 #     },
