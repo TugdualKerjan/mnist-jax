@@ -7,6 +7,16 @@ import equinox.nn as nn
 class MLP(eqx.Module):
     layers: list
 
+# @discussion{
+#   "comments": [
+#     {
+#       "author": "anonymous",
+#       "timestamp": "2025-01-17T23:35:44.774088",
+#       "content": "Regarding:\n> hidden=(784, 512, 256, 64, 16, 10)\n\nIs there any particular reason for these layers being chosen ?",
+#       "paper_ref": null
+#     }
+#   ]
+# }
     def __init__(self, hidden=(784, 512, 256, 64, 16, 10), key=None):
         self.layers = [
 # @discussion{
