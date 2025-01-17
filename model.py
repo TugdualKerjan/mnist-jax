@@ -9,6 +9,16 @@ class MLP(eqx.Module):
 
     def __init__(self, hidden=(784, 512, 256, 64, 16, 10), key=None):
         self.layers = [
+# @discussion{
+#   "comments": [
+#     {
+#       "author": "anonymous",
+#       "timestamp": "2025-01-17T23:34:30.979157",
+#       "content": "Regarding:\n>  hidden[i + 1], key=k)\n\n",
+#       "paper_ref": null
+#     }
+#   ]
+# }
             nn.Linear(hidden[i], hidden[i + 1], key=k)
             for i, k in enumerate(jr.split(key, len(hidden) - 1))
         ]
